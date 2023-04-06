@@ -14,10 +14,10 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background: $gradient;
+		background: $mainTextColor;
 		z-index: 2;
 	}
-	&__body {
+	&__inner {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -26,27 +26,6 @@
 		@media (max-width: $burgerBP) {
 			padding: 18px 0;
 			height: 88px;
-		}
-	}
-	&__menu {
-		flex: 1 1 auto;
-	
-		font-size: 18px;
-		@media (max-width: $burgerBP) {
-			position: fixed;
-			left: -100%;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			overflow: auto;
-			background-color: $mainTextColor;
-			transition: left 0.3s ease;
-			&.menu-active {
-				left: 0;
-				height: 100vh;
-				width: 100vw;
-				pointer-events: all;
-			}
 		}
 	}
 	&__button {
@@ -70,24 +49,45 @@
 }
 
 .menu {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	gap: 30px;
+	flex: 1 1 auto;
 
-	position:relative;
-	z-index: 3;
+	font-size: 18px;
 	@media (max-width: $burgerBP) {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		position: fixed;
+		left: -100%;
+		top: 0;
+		width: 100%;
 		height: 100%;
+		overflow: auto;
+		background-color: $mainTextColor;
+		transition: left 0.3s ease;
+		&.menu-active {
+			left: 0;
+			height: 100vh;
+			width: 100vw;
+			pointer-events: all;
+		}
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 30px;
+	
+		position:relative;
+		z-index: 3;
+		@media (max-width: $burgerBP) {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
 	}
 	
-	&__item {
+	&__list-item {
 		color: #646A89;
 	}
-	&__item-link {
+	&__list-link {
 		@media (any-hover: hover) {
 			&:hover {
 				color: $accentColor;
