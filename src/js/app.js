@@ -1,5 +1,5 @@
 import * as flsFunctions from "./modules/functions.js";
-import Swiper, { Navigation, Pagination, Parallax, Autoplay } from 'swiper';
+import Swiper, { Navigation, Pagination, Parallax, Autoplay, EffectFade } from 'swiper';
 import mixitup from 'mixitup';
 
 flsFunctions.isWebp();
@@ -16,7 +16,7 @@ flsFunctions.isWebp();
 
 
 // ------Swiper-------
-Swiper.use([Navigation, Pagination, Parallax, Autoplay]);
+Swiper.use([Navigation, Pagination, Parallax, Autoplay, EffectFade]);
 
 if (document.querySelector('.slider-intro__body')) {
 	new Swiper('.slider-intro__body', {
