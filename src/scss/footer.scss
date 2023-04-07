@@ -1,3 +1,58 @@
 .footer {
-	// background: $mainTextColor;
+	padding: 50px 0 32px;
+	background: $mainTextColor;
+	color: $textColor;
+	&__menu {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 50px;
+	}
+	&__menu-list {
+		max-width: 270px;
+	}
+	&__menu-title {
+		margin-bottom: 40px;
+	}
+	&__menu-item:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	&__menu-link {
+		&:hover {
+			color: $accentColor;
+		}
+	}
+	.app {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 39px;
+		
+		margin-bottom: 50px;
+	}
+	&__copyright {
+		max-width: 806px;
+		font-size: 12px;
+		line-height: 1.25;
+
+		margin: 0 auto 30px;
+	}
+	&__copyright-text {
+		text-align: center;
+	}
+	&__copyright-link {
+		text-decoration: underline;
+		&:hover {
+			color: $accentColor;
+		}
+	}
+	.copyright {
+		margin-bottom: 32px;
+		&__list {
+			display: flex;
+			justify-content: center;
+			gap: 40px;
+		}
+	}
 }
+
+
