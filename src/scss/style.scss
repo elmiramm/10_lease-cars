@@ -86,13 +86,13 @@ textarea,
 select {
 	font: inherit;
 }
-
 // ------Фиксация-футера-внизу-страницы---------
 .wrapper {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	position: relative;
 }
 
 .page {
@@ -145,6 +145,9 @@ select {
 	&--big {
 		padding: 23px 112.5px;
 		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 36px;
+		line-height: 1.22;
 	}
 }
 
@@ -153,6 +156,7 @@ select {
 
 // -----Общие блоки-End -----
 
-
+@import "intro.scss";
+@import "slider-intro.scss";
 // Adaptive 
 // @import "_media.scss"; создать
