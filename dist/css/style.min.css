@@ -302,7 +302,7 @@ select {
 }
 
 .section {
-  margin-bottom: 150px;
+  margin-bottom: 109px;
 }
 .section__title-box {
   font-size: 48px;
@@ -591,4 +591,20 @@ select {
 .video-section__content {
   margin: 0 auto;
   display: block;
+}
+
+.important__text {
+  max-width: 580px;
+  margin: 0 auto 50px;
+}
+.important__list {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+}
+.important__item-img {
+  max-width: 270px;
+  height: 150px;
+  margin-bottom: 20px;
 }

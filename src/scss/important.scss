@@ -1,0 +1,18 @@
+.important {
+	&__text {
+		max-width: 580px;
+		margin: 0 auto 50px;
+	}
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		gap: 40px;
+	}
+	&__item-img {
+		max-width: 270px;
+		height: 150px;
+
+		margin-bottom: 20px;
+	}
+}
