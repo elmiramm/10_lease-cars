@@ -580,3 +580,15 @@ select {
 .how-it-works__item p {
   width: 270px;
 }
+
+.video-section__title {
+  font-size: inherit;
+  text-transform: uppercase;
+}
+.video-section__subtitle {
+  margin-top: 20px;
+}
+.video-section__content {
+  margin: 0 auto;
+  display: block;
+}
