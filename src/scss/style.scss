@@ -62,7 +62,7 @@ p {
 	margin: 0;
 }
 
-ul, li {
+ol, ul, li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -159,5 +159,6 @@ select {
 @import "intro.scss";
 @import "slider-intro.scss";
 @import "why-lease.scss";
+@import "how-it-works.scss";
 // Adaptive 
 // @import "_media.scss"; создать

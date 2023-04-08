@@ -1,0 +1,46 @@
+.how-it-works {
+	& .container {
+		max-width: 624px;
+	}
+	&__text:not(:last-child) {
+		margin-bottom: 50px;
+	}
+	&__subtitle {
+		text-align: left;
+		margin-bottom: 50px;
+	}
+	&__list {
+		max-width: 510px;
+		counter-reset: myCounter;
+		margin-left: auto;
+		margin-bottom: 70px;
+	}
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&:not(:last-child) {
+			margin-bottom: 40px;
+		}
+		
+		
+		&::before {
+			counter-increment: myCounter;
+			content: counter(myCounter);
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 58px;
+			color: $textColor;
+			background-color: $accentColor;
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		p {
+			width: 270px;
+		}
+	}
+}
