@@ -485,6 +485,9 @@ select {
   justify-content: center;
   gap: 40px;
 }
+.footer .copyright__list-link:hover {
+  color: #0066FF;
+}
 
 .intro {
   background-color: rgba(21, 21, 21, 0.3);
@@ -506,4 +509,31 @@ select {
 .slider-intro {
   position: relative;
   min-height: 100vh;
+}
+
+.why-lease {
+  margin-top: 150px;
+}
+.why-lease__list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 40px;
+}
+.why-lease__item-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  border: 1px solid #0066FF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why-lease__item-title {
+  margin-bottom: 30px;
+}
+.why-lease__item-text {
+  text-align: left;
 }

@@ -52,6 +52,11 @@
 			justify-content: center;
 			gap: 40px;
 		}
+		&__list-link {
+			&:hover {
+				color: $accentColor;
+			}
+		}
 	}
 }
 

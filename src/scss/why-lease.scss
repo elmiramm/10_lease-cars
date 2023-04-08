@@ -1,0 +1,27 @@
+.why-lease {
+	margin-top: 150px;
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		text-align: center;
+		gap: 40px;
+	}
+	&__item-img {
+		width: 150px;
+		height: 150px;
+		margin: 0 auto 30px;
+		border: 1px solid $accentColor;
+		border-radius: 50%;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__item-title {
+		margin-bottom: 30px;
+	}
+	&__item-text {
+		text-align: left;
+	}
+}
