@@ -72,35 +72,22 @@ window.onload = function () {
 	document.addEventListener('click', documentActions);
 
 	//-------Active links on Page--------
-	// const page = document.querySelector('.page');
-	// if (page.classList.contains("about")) {
-	// 	const about = document.querySelectorAll('.menu__list-link').forEach(elem => {
-	// 		if (elem.textContent === "About") {
-	// 			elem.classList.add('active-header-link');
-	// 		}
-	// 	})
-	// }
-	// if (page.classList.contains("gallery")) {
-	// 	const gallery = document.querySelectorAll('.menu__list-link').forEach(elem => {
-	// 		if (elem.textContent === "Gallery") {
-	// 			elem.classList.add('active-header-link');
-	// 		}
-	// 	})
-	// }
-	// if (page.classList.contains("contact")) {
-	// 	const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
-	// 		if (elem.textContent === "Contact") {
-	// 			elem.classList.add('active-header-link');
-	// 		}
-	// 	})
-	// }
-	// if (page.classList.contains("blog-page")) {
-	// 	const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
-	// 		if (elem.textContent === "Blog") {
-	// 			elem.classList.add('active-header-link');
-	// 		}
-	// 	})
-	// }
+	const page = document.querySelector('.header');
+	if (page.classList.contains("contact-us")) {
+		const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
+			if (elem.textContent === "contact us") {
+				elem.classList.add('active-header-link');
+			}
+		})
+	}
+	if (page.classList.contains("catalog")) {
+		const gallery = document.querySelectorAll('.menu__list-link').forEach(elem => {
+			if (elem.textContent === "new cars") {
+				elem.classList.add('active-header-link');
+			}
+		})
+	}
+
 	//-------Active links on Page-End-------
 
 

@@ -40,6 +40,9 @@
 			}
 		}
 	}
+	.active-header-link {
+		color: $accentColor;
+	}
 }
 
 @import "burger.scss";

@@ -389,6 +389,9 @@ select {
     color: #0066FF;
   }
 }
+.menu .active-header-link {
+  color: #0066FF;
+}
 
 .burger {
   display: none;
