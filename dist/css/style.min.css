@@ -695,3 +695,50 @@ select {
   margin: 0 auto;
   max-width: 227px;
 }
+
+.catalog {
+  margin-top: 100px;
+}
+
+.tabs__btn {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+.tabs__btn-item {
+  cursor: pointer;
+}
+.tabs__content-item {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.card {
+  text-align: center;
+}
+.card__inner {
+  border-left: 1px solid #0066FF;
+  border-right: 1px solid #0066FF;
+  padding: 0 10px;
+}
+.card__text, .card__title {
+  margin-bottom: 20px;
+}
+.card__title {
+  padding-top: 20px;
+}
+.card__price {
+  padding-bottom: 20px;
+}
+.card__link {
+  border: 1px solid #0066FF;
+  width: 100%;
+  display: inline-block;
+  color: #0066FF;
+}
+
+.mixitup-control-active {
+  color: #0066FF;
+}

@@ -1,0 +1,47 @@
+.catalog {
+	margin-top: 100px;
+}
+.tabs {
+	&__btn {
+		display: flex;
+		justify-content: center;
+		gap: 80px;
+		margin-bottom: 100px;
+	}
+	&__btn-item {
+		cursor: pointer;
+	}
+	&__content-item {
+		display: flex;
+		gap: 40px;
+		margin-bottom: 100px;
+	}
+}
+.card {
+	text-align: center;
+	&__inner {
+		border-left: 1px solid $accentColor;
+		border-right: 1px solid $accentColor;
+		padding: 0 10px;
+	}
+	&__text,
+	&__title {
+		margin-bottom: 20px;
+	}
+	&__title {
+		padding-top: 20px;
+	}
+	&__price {
+		padding-bottom: 20px;
+	}
+
+	&__link {
+		border: 1px solid $accentColor;
+		width: 100%;
+		display: inline-block;
+		color: $accentColor;
+	}
+}
+.mixitup-control-active {
+	color: $accentColor;
+}

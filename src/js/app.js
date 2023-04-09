@@ -5,13 +5,9 @@ import mixitup from 'mixitup';
 flsFunctions.isWebp();
 
 //--------MixitUp---------
-// if (document.querySelector(".gallery__inner")) {
-// 	var mixer = mixitup('.gallery__inner', {
-// 		load: {
-// 			filter: '.living',
-// 		}
-// 	});
-// }
+if (document.querySelector(".tabs__content")) {
+	var mixer = mixitup('.tabs__content');
+}
 //--------MixitUp-End--------
 
 
