@@ -1,7 +1,4 @@
 .blog {
-	.container {
-		text-align: center;
-	}
 	&__items {
 		display: flex;
 		justify-content: space-between;
@@ -16,5 +13,10 @@
 	&__item-img {
 		width: 100%;
 		margin-bottom: 30px;
+	}
+	&__btn {
+		display: block;
+		margin: 0 auto;
+		max-width: 227px;
 	}
 }
