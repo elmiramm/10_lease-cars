@@ -343,6 +343,9 @@ select {
   line-height: 1.22;
 }
 
+.header {
+  background-color: #151515;
+}
 .header--main {
   background-color: transparent;
   position: absolute;
