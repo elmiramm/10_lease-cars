@@ -9,6 +9,13 @@
 }
 
 @media (max-width: $burgerBP) {
+	.section {
+		margin-bottom: 100px;
+	}
+	.section__title-box {
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
 	.header {
 		&__inner {
 			justify-content: space-between;
@@ -59,9 +66,24 @@
 	.swiper-pagination-bullet {
 		width: 70px;
 	}
+	.why-lease {
+		margin-top: 100px;
+	}
+	.why-lease__list {
+		flex-wrap: wrap;
+		&-item {
+			max-width: 273.5px;
+		}
+	}
 }
 
 @media (max-width: $bp768) {
+	.section__title-box {
+		font-size: 30px;
+	}
+	.accent-text {
+		font-size: 20px;
+	}
 	.intro__title {
 		font-size: 45px;
 		margin-bottom: 20px;
@@ -69,6 +91,18 @@
 	.btn--big {
 		padding: 15px 50px;
 		font-size: 17px;
+	}
+	.why-lease {
+		gap: 30px;
+	}
+	.why-lease__item-title {
+		margin-bottom: 15px;
+	}
+	.why-lease__item-img {
+		margin: 0 auto 15px;
+	}
+	.why-lease__item-text {
+		text-align: center;
 	}
 }
 
