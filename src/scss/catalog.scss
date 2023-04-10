@@ -1,12 +1,18 @@
 .catalog {
-	margin-top: 100px;
+	margin-top: 240px;
+	&__btn {
+		margin-top: 100px;
+	}
 }
 .tabs {
 	&__btn {
 		display: flex;
 		justify-content: center;
 		gap: 80px;
-		margin-bottom: 100px;
+		&:not(:last-child) {
+			margin-bottom: 100px;
+		}
+		
 	}
 	&__btn-item {
 		cursor: pointer;

@@ -69,14 +69,14 @@ window.onload = function () {
 
 	//-------Active links on Page--------
 	const page = document.querySelector('.header');
-	if (page.classList.contains("contact-us")) {
+	if (page.classList.contains("contact")) {
 		const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
 			if (elem.textContent === "contact us") {
 				elem.classList.add('active-header-link');
 			}
 		})
 	}
-	if (page.classList.contains("catalog")) {
+	if (page.classList.contains("catalog-page")) {
 		const gallery = document.querySelectorAll('.menu__list-link').forEach(elem => {
 			if (elem.textContent === "new cars") {
 				elem.classList.add('active-header-link');

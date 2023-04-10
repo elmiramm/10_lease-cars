@@ -14,7 +14,7 @@ $bp768: 767.98px;
 $bp480: 479.98px;
 $bp320: 319.98px;
 
-$burgerBP: $bp480;
+$burgerBP: $bp992;
 //------Vars-End------ 
 
 @import "fonts.scss";
@@ -109,6 +109,7 @@ select {
 // -----Общие блоки-----
 .section {
 	margin-bottom: 109px;
+	position: relative;
 	&__title-box {
 		font-size: 48px;
 		line-height: 1.21;
@@ -177,4 +178,4 @@ select {
 
 
 // Adaptive 
-// @import "_media.scss"; создать
+@import "_media.scss";
