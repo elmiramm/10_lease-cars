@@ -775,6 +775,10 @@ select {
     padding: 20px 70px;
     font-size: 25px;
   }
+  iframe {
+    width: 100%;
+    height: 585px;
+  }
 }
 @media (max-width: 991.98px) {
   .section {
@@ -840,6 +844,11 @@ select {
     max-width: 273.5px;
   }
 }
+@media (max-width: 850px) {
+  iframe {
+    height: 450px;
+  }
+}
 @media (max-width: 767.98px) {
   .section__title-box {
     font-size: 30px;
@@ -866,6 +875,9 @@ select {
   }
   .why-lease__item-text {
     text-align: center;
+  }
+  iframe {
+    height: 380px;
   }
 }
 @media (max-width: 520px) {
@@ -906,6 +918,9 @@ select {
     width: 75%;
     max-width: 350px;
   }
+  iframe {
+    height: 380px;
+  }
 }
 @media (max-width: 380px) {
   .how-it-works__item::before {
@@ -915,5 +930,8 @@ select {
   }
   .how-it-works__item {
     gap: 10px;
+  }
+  iframe {
+    height: 230px;
   }
 }
