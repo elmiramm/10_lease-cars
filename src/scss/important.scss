@@ -7,7 +7,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: start;
+		flex-wrap: wrap;
 		gap: 40px;
+	}
+	&__list-item {
+		max-width: 270px;
 	}
 	&__item-img {
 		max-width: 270px;
