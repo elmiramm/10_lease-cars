@@ -20,6 +20,9 @@
 	}
 	&__menu-title {
 		margin-bottom: 40px;
+		& a {
+			cursor: default;
+		}
 	}
 	&__menu-item:not(:last-child) {
 		margin-bottom: 20px;
