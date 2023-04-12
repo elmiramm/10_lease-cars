@@ -174,6 +174,16 @@
 	.important__list {
 		gap: 20px;
 	}
+	.form {
+		row-gap: 30px;
+		column-gap: 20px;
+	}
+	.form__input {
+		width: 100%;
+	}
+	.form__textarea {
+		padding: 20px;
+	}
 }
 @media (max-width: 620px) {
 	.important__list-item {
@@ -206,7 +216,6 @@
 .blog__item-img {
 	margin: 0;
 }
-
 }
 @media (max-width: 520px) {
 	
